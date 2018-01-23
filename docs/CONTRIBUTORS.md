@@ -180,11 +180,13 @@
 - JM
 - Jesús Martínez
 - Dave Merrill
+- Leo Neeson
 - Darius Niemczyk
 - Fernanda Parisi
 - Adam Quaile
 - Christopher Rucinski
 - Kevin S
+- Frank Sachsenheim
 - Marek Šesták
 - Chris Simpkins
 - Rogier Spieker
@@ -197,6 +199,7 @@
 - Gustaf Zetterlund
 - 张标 (@angrilove)
 - @duud
+- @haktrik
 - @hrj
 - @iamklutch
 - @legovini

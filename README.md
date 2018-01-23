@@ -1,7 +1,7 @@
 
 # Hack
 
-[![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack) [![Contributors](https://img.shields.io/badge/contributors-121-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
+[![Build Status](https://travis-ci.org/source-foundry/Hack.svg?branch=master)](https://travis-ci.org/source-foundry/Hack) [![Contributors](https://img.shields.io/badge/contributors-124-orange.svg?style=flat)](https://github.com/source-foundry/Hack/blob/master/docs/CONTRIBUTORS.md)
 
 Hack v3 is here!  [Click here to learn what's new](https://medium.com/source-words/hack-typeface-v3-6943991c1a80).
 
@@ -76,7 +76,7 @@ To use with [Secure Shell](https://chrome.google.com/webstore/detail/secure-shel
 edit the following fields in Options:
 
   - font-family: `"Hack"`
-  - user-css: `https://cdn.jsdelivr.net/npm/hack-font/build/web/hack.css`
+  - user-css: `https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css`
 
 ## Package managers
 
@@ -108,13 +108,13 @@ Include one of the following in the &lt;head&gt; section of your HTML file:
 **Subset web fonts**
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack-subset.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
 ```
 
 **Full character set web fonts**
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css">
 ```
 
 #### 2. Add Hack to CSS
@@ -159,13 +159,17 @@ Contributions to the Hack project are welcomed.  Please review our [CONTRIBUTING
 
 ## Built With
 
-Hack is built with the following free, open source tools:
+Hack is built with the following free, open source projects:
 
 - [Font Bakery](https://github.com/googlefonts/fontbakery) - post-compilation modifications
 - [fontmake](https://github.com/googlei18n/fontmake) - UFO to ttf compilation
-- [font-v](https://github.com/source-foundry/font-v) - font versioning, git commit sha1 short string labeling of font versions
+- [fontTools](https://github.com/fonttools/fonttools) - OpenType table read/write
+- [font-v](https://github.com/source-foundry/font-v) - font version string editor
+- [ink](https://github.com/chrissimpkins/ink) - stream editor for CSS file templating
+- [OpenFV](https://github.com/openfv/openfv) - open specification for semantic typeface versioning
 - [sfnt2woff_zopfli](https://github.com/bramstein/sfnt2woff-zopfli) - ttf to woff web font compilation
 - [ttfautohint](https://www.freetype.org/ttfautohint/) - ttf instruction sets
+- [uni](https://github.com/source-foundry/uni) - Unicode code point search
 - [ufodiff](https://github.com/source-foundry/ufodiff) - UFO source diffs
 - [ufoLib](https://github.com/unified-font-object/ufoLib) - UFO source file reads/writes/testing
 - [ufolint](https://github.com/source-foundry/ufolint) - UFO source file linting for CI testing
@@ -179,7 +183,7 @@ We would like to acknowledge and thank the [jsDelivr](https://www.jsdelivr.com/)
 
 ## License
 
-**Hack** work is &copy; 2017 Source Foundry Authors. MIT License
+**Hack** work is &copy; 2018 Source Foundry Authors. MIT License
 
 **Bitstream Vera Sans Mono** &copy; 2003 Bitstream, Inc. (with Reserved Font Names _Bitstream_ and _Vera_). Bitstream Vera License.
 
@@ -191,5 +195,5 @@ See [LICENSE.md](https://github.com/source-foundry/Hack/blob/master/LICENSE.md) 
 
 <!-- Link to the latest release archive for README.md file -->
 
-[ttf_latest]: https://github.com/source-foundry/Hack/releases/download/v3.000/Hack-v3.000-ttf.zip
+[ttf_latest]: https://github.com/source-foundry/Hack/releases/download/v3.001/Hack-v3.001-ttf.zip
 
